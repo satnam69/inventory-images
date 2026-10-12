@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" width="250" height="250">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e1a1e;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1f0f14;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Card body -->
+  <rect x="20" y="45" width="210" height="160" rx="12" ry="12" fill="url(#cardBg)" stroke="#ec4899" stroke-width="1.5"/>
+  <!-- Top accent bar -->
+  <rect x="20" y="45" width="210" height="28" rx="12" ry="12" fill="url(#accent)"/>
+  <rect x="20" y="61" width="210" height="12" fill="url(#accent)"/>
+  <!-- Header text -->
+  <text x="125" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#fff">DRIVING LICENSE - BIKE</text>
+  <!-- Photo placeholder -->
+  <rect x="38" y="85" width="52" height="62" rx="4" fill="#3a1a25" stroke="#ec4899" stroke-width="1"/>
+  <circle cx="64" cy="102" r="12" fill="#6e2d4a"/>
+  <ellipse cx="64" cy="132" rx="18" ry="12" fill="#6e2d4a"/>
+  <!-- Info lines -->
+  <rect x="105" y="90" width="108" height="8" rx="3" fill="#6e2d4a"/>
+  <rect x="105" y="106" width="85" height="8" rx="3" fill="#3a1a25"/>
+  <rect x="105" y="122" width="95" height="8" rx="3" fill="#3a1a25"/>
+  <rect x="105" y="138" width="70" height="8" rx="3" fill="#3a1a25"/>
+  <!-- Motorcycle icon -->
+  <g transform="translate(175, 168)" fill="#ec4899" opacity="0.5">
+    <circle cx="-14" cy="10" r="8" fill="none" stroke="#ec4899" stroke-width="2.5"/>
+    <circle cx="14" cy="10" r="8" fill="none" stroke="#ec4899" stroke-width="2.5"/>
+    <path d="M-8,6 L0,-4 L10,0 L14,2" stroke="#ec4899" stroke-width="2.5" fill="none"/>
+    <rect x="-2" y="-8" width="6" height="4" rx="1" fill="#ec4899"/>
+  </g>
+  <!-- Category badge -->
+  <rect x="38" y="160" width="36" height="16" rx="4" fill="#ec4899" opacity="0.3"/>
+  <text x="56" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#ec4899">BIKE</text>
+  <rect x="38" y="182" width="80" height="6" rx="3" fill="#3a1a25"/>
+</svg>
